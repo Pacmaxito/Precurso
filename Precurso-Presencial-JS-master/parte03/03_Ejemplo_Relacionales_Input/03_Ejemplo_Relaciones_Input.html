@@ -11,9 +11,19 @@
 <body>
     <script>
         // Creamos una variable
-        let edad = prompt("¿Cuantos años tienes?"); // Mostramos mensaje al usuario
+       // let edad = prompt("¿Cuantos años tienes?"); // Mostramos mensaje al usuario
+       // respuesta = parseInt(edad);
 
-        console.log("Eres mayor de edad: " + (edad >= 18)); // Mostramos mensaje y true/false dependiendo de si edad es mayor o igual que 18
+    let vip = prompt("Eres vip?");
+      respuesta = parseInt(vip);
+
+       if(respuesta){
+        console.log("Eres VIP")
+       } else{
+        console.log("NO eres VIP")
+       }
+
+       // console.log("Eres mayor de edad: " + (respuesta >= 18)); // Mostramos mensaje y true/false dependiendo de si edad es mayor o igual que 18
     </script>
 </body>
 
