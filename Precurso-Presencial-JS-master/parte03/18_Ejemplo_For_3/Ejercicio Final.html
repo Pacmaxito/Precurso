@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Crea un tablero con el número que introduzca el usuario
+        
+        let numero = parseInt(prompt("Introduce un número"));
+        let Ncolumnas;
+        let resultado;
+        
+    for(let Ncolumnas = 1; Ncolumnas<=numero; Ncolumnas + 1){
+         
+        if(numero % 2 == 0){ // si el numero es par
+            Ncolumnas = ("XO");
+            console.log(Ncolumnas);
+        } 
+        else if(numero % 2 == 1){ // si el numero es impar
+            Ncolumnas = ("X");
+            console.log(Ncolumnas);
+        }
+
+       resultado += ((Ncolumnas * numero)+ " ");
+       console.log(resultado);
+       
+    }
+
+
+
+
+    </script>
+
+
+
+</body>
+</html>
