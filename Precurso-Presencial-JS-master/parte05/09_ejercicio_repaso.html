@@ -24,24 +24,29 @@
         
         let respuestas = [];
 
+        
+            let pregunta1 = prompt("Escribe algo 1");
+            let pregunta2 = prompt("Escribe algo 2");
+            let pregunta3 = prompt("Escribe algo 3");
+
+            let RespuestaUser1 = pregunta1.substring(0);
+            let RespuestaUser2 = pregunta2.substring(0);
+            let RespuestaUser3 = pregunta3.substring(0);
+
+
+        for (let i = 0; i< 3; i++){
             
-            let Posicion1 = respuestas[0];
-            let posicion2 = respuestas[1];
-            let Posicion3 = respuestas[2];
-
-            
-
-        for (i = 0; i< 3; i++){
-
-            pregunta = prompt("Escribe algo");
-
-            respuestas [0] = pregunta.substring(0);
-            respuestas [1] = pregunta.substring(0);
-            respuestas [2] = pregunta.substring(0);
-
-           console.log(respuestas[i])
+            respuestas[0] = RespuestaUser1;
+            respuestas[1] = RespuestaUser2;
+            respuestas[2] = RespuestaUser3;   
         }
+            console.log(RespuestaUser2);
+            console.log(RespuestaUser1);
+            console.log(RespuestaUser3);
 
+        
+
+        
 
     </script>
 </body>
