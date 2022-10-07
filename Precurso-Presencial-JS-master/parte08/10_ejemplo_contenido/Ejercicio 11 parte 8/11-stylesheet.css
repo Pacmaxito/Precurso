@@ -1,0 +1,48 @@
+
+#intros{
+    text-align: center;
+    background-color: brown;
+    padding: 30px 0px 30px 0px;
+}
+#noticias{
+    text-align: center;
+    background-color: darkgreen;
+    padding: 30px 0px 30px 0px;
+}
+
+.titular{
+    display: flex;
+    justify-content: center;
+}
+
+.título {
+ display: flex;
+ background-color: aliceblue;
+ border-radius: 10px;
+ justify-content: center;
+padding: 10px;
+
+}
+
+
+#Cgeneral{
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    margin: 5%;
+    text-align: center;
+}
+#noticias .container{
+    margin: 5%;
+    text-align: left;
+}
+
+#noticias .título {
+    color: green;
+}
+#intros .título {
+    color: brown;
+}
+
