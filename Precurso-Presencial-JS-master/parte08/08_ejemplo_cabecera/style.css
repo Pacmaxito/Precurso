@@ -13,16 +13,22 @@
 
 #title{
     color: white;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 #list {
     list-style-type: none;
     display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: darkslategray;
+    align-items: center;
 }
 
 li {
     margin: 0 1vh 0 1vh;
     padding: 0 2vh 0 2vh;
     background-color:white;
-    border-radius: 4px;
+    border-radius: 10px;
  }

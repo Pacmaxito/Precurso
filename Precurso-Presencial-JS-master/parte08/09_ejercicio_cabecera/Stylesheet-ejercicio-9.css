@@ -1,0 +1,32 @@
+#header{
+    display: flex;
+    background-color: blueviolet;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+ font-family: sans-serif;
+ font-weight: bold;
+ font-size: 40pt;
+ margin-right: 50%;
+ margin-left: 80%;
+}
+
+#list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 15pt;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 10px;
+    
+}
