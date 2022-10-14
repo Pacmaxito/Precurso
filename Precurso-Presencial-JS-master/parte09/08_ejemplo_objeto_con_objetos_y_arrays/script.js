@@ -6,15 +6,20 @@ let estudiante = {
     nombre: "Kyra",
   },
   asignaturas: [
-    { nombre: "Historia", notas: [7, 8, 5] },
-    { nombre: "Matemáticas", notas: [4, 9, 7] },
-    { nombre: "Filosofía", notas: [3, 1, 4] },
+    { nombre: "Historia",
+      notas: [7, 8, 5] },
+    { nombre: "Matemáticas",
+      notas: [4, 9, 7] },
+    { nombre: "Filosofía",
+      notas: [3, 1, 4] },
   ],
 };
 
 let nombreMascota = estudiante.mascota.nombre;
 
 let nombrePrimeraAsignatura = estudiante.asignaturas[0].nombre;
+let SegundaNotaMates = estudiante.asignaturas[1].notas[1];
 
 console.log(nombreMascota);
 console.log(nombrePrimeraAsignatura);
+console.log(SegundaNotaMates);
