@@ -293,7 +293,7 @@ let letraNombre = {
     let Superfecha = fechaNacimiento[fechaDato].masculino;
     
   console.log("tu nombre de Superheroe es " + Supernombre + " " + Superapellido + " " + Superfecha);
-
+  
     /*if (letraNombre[letraNombreDato].masculino ){
         console.log(letraNombre.a.masculino);
     }
