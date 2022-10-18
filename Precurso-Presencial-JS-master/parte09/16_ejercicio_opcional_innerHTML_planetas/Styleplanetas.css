@@ -30,3 +30,9 @@ body{
 .carta h2{
     text-align: center;
 }
+
+.carta img {
+    width: auto;
+    height: 300px;
+}
+
